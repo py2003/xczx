@@ -1,0 +1,348 @@
+@charset "utf-8";
+/* CSS Document */
+/*清除内外边距*/
+ *{
+	padding: 0;
+	margin: 0;
+}
+/*设置宽度1200像素 左右水平对齐*/
+.w{
+	width: 1200px;
+	margin: 0 auto;
+}
+body{
+/*	设置背景颜色*/
+	background-color: #f3f5f7;
+}
+li{
+/*	取消小圆点*/
+    list-style: none;
+	
+	
+}
+a{
+/*	取消a链接下划线*/
+	text-decoration: none;
+}
+.head{
+/*	设置高度为42像素*/
+	height: 42px;
+/*	background-color: pink;*/
+/*	上下外边距20像素 左右水平对齐*/
+	margin: 30px auto;
+}
+.logo{
+/*	左浮动*/
+	float: left;
+/*	设置高度宽度*/
+	width: 198px;
+	height: 42px;
+}
+.niv{
+/*	左浮动*/
+	float: left;
+/*	设置左外边距为60像素*/
+	margin-left: 60px;
+}
+.niv ul li{
+/*	左浮动*/
+	float: left;
+/*	左右外边距15像素 */
+	margin: auto 15px;
+}
+.niv ul li a{
+	
+	display: block;
+	height: 42px;
+	padding: 0 10px;
+	line-height: 42px;
+	font-size: 18px;
+	color: #050505;
+}
+.niv	ul li a:hover{
+	border-bottom: 2px solid #00a4ff;
+}
+.one{
+	float: left;
+	height: 42px;
+	width: 412px;
+	margin-left: 50px;	
+   
+}
+
+.one input{
+	box-sizing: border-box;
+	padding-left: 10px;
+    float: left;
+	width: 345px;
+	height: 40px;
+	border: 1px solid #00a4ff;
+	border-right: none;
+	color: #bfbfbf;
+	font-size: 14px;
+	margin-left: 15px;
+}
+.one button
+{
+	 float: left;
+	 height: 42px;
+	 width: 50px;
+	 background-color: #00a4ff;
+	 border: 0;	
+}
+.two{
+	float: left;
+    margin-left: 30px;
+	height: 42px;
+	line-height: 42px;
+	color:#666;
+    font-size:14px;
+	
+}
+
+   .banner{
+   height: 420px;
+	background-color: #1c036c;
+}
+.banner .w{
+	height: 420px;
+
+	background: url("img/下载 (5).png") no-repeat top center;
+}
+
+.subnav{
+	float: left;
+	height: 421px;
+	width: 190px;
+	background: rgba(0,0,0,0.3);
+}
+.subnav ul li{
+	height: 45px;
+	line-height: 45px;
+	padding: 0 20px;
+}
+.subnav ul li a{
+	font-size: 14px;
+	color: #fff;
+}
+.subnav ul li a span{
+	float: right;
+}
+.subnav ul li a:hover{
+	color: #00a4ff;	
+}
+.course{
+	float: right;
+	height: 300px;
+	width: 230px;
+	margin-top: 50px;
+	background-color: #f3f5f7;
+	
+}
+.course h2{
+ 
+	height: 48px;
+	background-color: #9bceea;
+	text-align: center;
+	line-height: 48px;
+	font-size: 18px;
+	color: #fff;
+}
+.bd{
+	padding: 0 20px;
+}
+.bd ul li{
+	padding: 15px 0;
+	border-bottom: 1px solid #ccc ;
+}
+.bd ul li h4{
+	color: #4e4e4e;
+	font-size: 16px;
+}
+.bd ul li p{
+	 color: #a5a5a5;
+	font-size:12px;
+}
+.bd .more{
+	height: 38px;
+	display: block;
+	text-align: center;
+	line-height: 38px;
+	border: 1px solid #	00a4ff;
+	color: #00a4ff;
+}
+
+.goods{
+	margin-top: 10px;
+	height: 60px;
+    background-color:#fff;
+	box-shadow: 0 2px 3px 3px rgba(0,0,0,0.1);
+	line-height: 60px;
+}
+.goods h3{
+	float: left;
+	margin-left: 30px;
+	font-size: 16px;
+	color: #00a4ff;
+}
+.goods ul{
+	float: left;
+	margin-left: 30px;
+}
+.goods ul li{
+	float: left;
+}
+.goods ul li a{
+	padding: 0 30px;
+	font-size: 16px;
+	color: #050505;
+	border-left: 1px solid #ccc; 
+}
+.goods ul li a:hover{
+	color: pink;
+}
+.mod{
+	float: right;
+	margin-right: 30px;
+	font-size: 14px;
+	color: #00a4ff;
+}
+.jp .head{
+	margin-top: 40px;
+}
+.jp .head h2{
+	float: left;
+	font-size: 16px;
+}
+.jp .head a{
+	float: right;
+	font-size: 12px;
+	color:#00a4ff;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+.jp .img ul{
+	width: 1225px;
+}
+.jp .img ul li{
+	width: 233px;
+	height: 290px;
+	background-color:#fff;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.jp .img ul li em{
+	position: absolute;
+	right: -4px;
+	top: 4px;
+}
+.jp .img ul li >img{
+	width: 100%;
+}
+.jp .img ul li h4{
+    margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 14px;
+	font-weight: 400;
+}
+.jp	.img ul li p{
+	margin-left: 20px;
+	margin-top: 20px;
+}
+.jp	.img ul li p span{
+	color:pink;
+	margin-right: 10px;
+}
+.qx{
+	clear: both;
+}
+.end{
+	width: 100%;
+	height: 270px;
+	background-color:#fff;
+	margin-top: 20px;
+}
+	
+.end .six{
+	
+}
+ .end  .six .five{
+	
+	padding-top: 50px;
+	 float: left;
+	
+	
+}
+ .end  .six .five img{
+	margin-bottom: 30px;
+}
+.end .six .five .wz{
+	margin-bottom: 20px;
+}
+.end .six .five .wz p{
+	font-size: 12px;
+	font-weight: 400;
+}
+.end .six .five a{
+	display: block;
+	height: 50px;
+	width: 170px;
+	border: 1px solid #00a4ff;
+	text-align: center;
+	line-height: 50px;
+	color: #00a4ff;
+	font-weight: 700;
+	margin-top: 15px;
+}
+.end .six .gy{
+	float: right;
+}
+.end .six .gy ul{
+	float: left;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+.end .six .gy ul li{
+	margin-bottom: 10px;
+	font-size: 16px
+}
+.end .six .gy ul li h4{
+	margin-bottom: 20px;
+	
+}
+.end .six .gy ul li a{
+	color:hsla(0,0%,0%,1.00);
+}
+.end .six .gy ul li a:hover{
+	color: pink;
+}
+.end .six .gy .py{
+	margin-right: 0;
+}
+
+.ll{
+	position: fixed;
+	left: 50%;
+	top:  0;
+	margin-left: 610px;
+	font-size: 20px;
+	color: blue;
+}
+.ll li a:hover{
+	color: pink;
+}
+ .jp .img .tudou{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.4) url("../土豆案例/下载.png") no-repeat center;
+	;
+	position: absolute;
+	 display: none;
+}
+.jp .img ul li:hover .tudou{
+	display: block;s
+}
